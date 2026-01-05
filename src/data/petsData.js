@@ -363,3 +363,63 @@ export const pets = [
     },
 
 ];
+
+// ============================================
+// OTRAS MASCOTAS (Memorias y Amigos/Familia)
+// ============================================
+
+export const otherPets = [
+    // EJEMPLO DE MASCOTA "MEMORIA" (ya no está con nosotros):
+    /*
+    {
+        id: 'nombre-unico',
+        name: 'Nombre',
+        type: 'Perro/Gato',
+        breed: 'Raza',
+        age: 'Años vividos (ej: "5 años")',
+        category: 'memoria', // NO CAMBIAR para mascotas fallecidas
+        description: 'Una breve descripción y recuerdos especiales.',
+        traits: ['Rasgo 1', 'Rasgo 2'],
+        technicalSheet: {
+            color: 'Color',
+            personality: 'Personalidad',
+            favoriteToy: 'Juguete',
+            favoriteFood: 'Comida'
+        },
+        images: {
+            main: '/src/assets/pets/nombre-main.jpg',
+            gallery: [
+                { url: '/src/assets/pets/nombre-1.jpg', caption: 'Descripción' }
+            ]
+        },
+        accentColor: '#6366f1'
+    },
+    */
+
+    // EJEMPLO DE MASCOTA "AMIGO" (mascota de amigos/familia):
+    /*
+    {
+        id: 'nombre-unico-2',
+        name: 'Nombre',
+        type: 'Perro/Gato',
+        breed: 'Raza',
+        age: 'Edad',
+        category: 'amigo', // NO CAMBIAR para mascotas de amigos
+        description: 'Descripción de la mascota y de quién es.',
+        traits: ['Rasgo 1', 'Rasgo 2'],
+        technicalSheet: {
+            color: 'Color',
+            personality: 'Personalidad',
+            favoriteToy: 'Juguete',
+            favoriteFood: 'Comida'
+        },
+        images: {
+            main: '/src/assets/pets/nombre-main.jpg',
+            gallery: [
+                { url: '/src/assets/pets/nombre-1.jpg', caption: 'Descripción' }
+            ]
+        },
+        accentColor: '#6366f1'
+    },
+    */
+];
