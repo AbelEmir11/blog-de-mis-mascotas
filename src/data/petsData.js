@@ -1,8 +1,10 @@
 /**
  * ARCHIVO DE DATOS DE MASCOTAS
  * 
- * Aquí puedes agregar todas las mascotas que quieras. 
- * Solo tienes que copiar y pegar un bloque de { ... } y cambiar los datos.
+ * pets - Mascotas actuales de la familia
+ * otherPets - Mascotas especiales (memorias o de amigos/familia)
+ *   - category: 'memoria' para mascotas que ya no están
+ *   - category: 'amigo' para mascotas de amigos/familiares
  */
 
 export const pets = [
@@ -197,7 +199,12 @@ export const pets = [
             main: '/src/assets/pets/grichijr.jpg',
             gallery: [
                 { url: '/src/assets/pets/hermanas.mp4', caption: 'era puro amor con su hermana finada' },
-                { url: '/src/assets/pets/castrada.jpg', caption: 'post operatorio no queria saber nada con las pastillas' }
+                { url: '/src/assets/pets/castrada.jpg', caption: 'post operatorio no queria saber nada con las pastillas' },
+                { url: '/src/assets/pets/grichi3.jpg', caption: 'grichi' },
+                { url: '/src/assets/pets/grichi2.jpg', caption: 'la Satoru Gojo?' },
+                { url: '/src/assets/pets/grichi4.jpg', caption: 'grichi' }
+
+
 
             ]
         },
@@ -319,7 +326,7 @@ export const pets = [
                 { url: '/src/assets/pets/burga3.jpg', caption: 'la burga' },
                 { url: '/src/assets/pets/burga4.jpg', caption: 'la burga' },
                 { url: '/src/assets/pets/burga.jpg', caption: 'la burga' },
-                
+
             ]
         },
         accentColor: '#a3a3a3ff'

@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { pets } from '../data/petsData';
+import { pets, otherPets } from '../data/petsData';
 import { ChevronLeft, Info, Heart, Camera, X } from 'lucide-react';
 
 const PetPage = () => {
     const { id } = useParams();
     const [selectedImg, setSelectedImg] = useState(null);
-    const pet = pets.find(p => p.id === id);
+
+    // Buscar en ambas listas
+    const allPets = [...pets, ...otherPets];
+    const pet = allPets.find(p => p.id === id);
 
     if (!pet) return <div>Mascota no encontrada</div>;
 

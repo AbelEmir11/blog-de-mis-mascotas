@@ -17,7 +17,7 @@ const PetGallery = () => {
                     <PawPrint size={32} className="premium-gradient" style={{ borderRadius: '50%', padding: '6px' }} />
                     <h1 style={{ fontSize: '2.5rem', fontWeight: '700' }}>Mis Mascotas</h1>
                 </motion.div>
-                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>Un pequeño rincón dedicado a mis mejores amigos.</p>
+                <p style={{ color: 'var(--text-muted)', fontSize: '1.1rem' }}>Un pequeño rincón dedicado a mis amigos peludos.</p>
             </header>
 
             <div style={{
