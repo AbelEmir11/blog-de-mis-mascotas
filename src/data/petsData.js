@@ -356,10 +356,12 @@ export const pets = [
                 { url: '/src/assets/pets/mora3.jpg', caption: 'en la ventana' },
                 { url: '/src/assets/pets/mora4.jpg', caption: '' },
                 { url: '/src/assets/pets/mora5.jpg', caption: '' },
+                { url: '/src/assets/pets/mora6.jpg', caption: '' },
+            
 
             ]
         },
-        accentColor: '#4d4d4dff'
+        accentColor: '#424242ff'
     },
 
 ];
